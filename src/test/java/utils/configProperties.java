@@ -7,9 +7,9 @@ import Common.BaseTest;
 public class configProperties {
 
 	public Properties config = new Properties();
-//	private final String propertyFilePath = BaseTest.resourceRoot+"config.properties";
+	private final String propertyFilePath = BaseTest.resourceRoot+"config.properties";
 	
-	public final String propertyFilePath ="D:\\ecliips workspace\\testngPractise\\src\\main\\resources\\config.properties";
+	//public final String propertyFilePath ="D:\\ecliips workspace\\testngPractise\\src\\main\\resources\\config.properties";
 	File file;
 	
 	public configProperties() throws IOException

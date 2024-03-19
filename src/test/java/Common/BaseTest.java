@@ -35,6 +35,7 @@ public void lunchBrowser(String browser) throws IOException
 		System.out.println(URL);
 		WebDriverManager.chromedriver().setup();
 		driver =new ChromeDriver();
+		driver.manage().window().maximize();
 		driver.get(URL);
 	}
 	
