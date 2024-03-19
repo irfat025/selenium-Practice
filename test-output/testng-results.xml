@@ -1,68 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-14T11:25:37 BDT" name="BeforeAndAfterSuite" finished-at="2024-03-14T11:25:37 BDT" duration-ms="42">
+  <suite started-at="2024-03-19T14:57:13 BDT" name="login Testing" finished-at="2024-03-19T14:57:13 BDT" duration-ms="21">
     <groups>
-      <group name="Registration">
-        <method signature="Group2forSuite.loginCheck()[pri:1, instance:UI.Group2forSuite@5ffead27]" name="loginCheck" class="UI.Group2forSuite"/>
-        <method signature="Group2forSuite.logoutCheck()[pri:2, instance:UI.Group2forSuite@5ffead27]" name="logoutCheck" class="UI.Group2forSuite"/>
-      </group> <!-- Registration -->
-      <group name="Smoke Test">
-        <method signature="Group2forSuite.loginCheck()[pri:1, instance:UI.Group2forSuite@5ffead27]" name="loginCheck" class="UI.Group2forSuite"/>
-      </group> <!-- Smoke Test -->
     </groups>
-    <test started-at="2024-03-14T11:25:37 BDT" name="Test before suite and after suite" finished-at="2024-03-14T11:25:37 BDT" duration-ms="42">
-      <class name="UI.Group2forSuite">
-        <test-method is-config="true" signature="datasetup()[pri:0, instance:UI.Group2forSuite@5ffead27]" started-at="2024-03-14T11:25:37 BDT" name="datasetup" finished-at="2024-03-14T11:25:37 BDT" duration-ms="6" status="PASS">
+    <test started-at="2024-03-19T14:57:13 BDT" name="Test before suite and after suite" finished-at="2024-03-19T14:57:13 BDT" duration-ms="21">
+      <class name="Page.loginClass">
+        <test-method is-config="true" signature="lunchBrowser(java.lang.String)[pri:0, instance:Page.loginClass@72d1ad2e]" started-at="2024-03-19T14:57:03 BDT" name="lunchBrowser" finished-at="2024-03-19T14:57:13 BDT" duration-ms="9789" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- datasetup -->
-        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:UI.Group2forSuite@5ffead27]" started-at="2024-03-14T11:25:37 BDT" name="loginToApplication" finished-at="2024-03-14T11:25:37 BDT" duration-ms="0" status="PASS">
+        </test-method> <!-- lunchBrowser -->
+        <test-method signature="loginTest()[pri:0, instance:Page.loginClass@72d1ad2e]" started-at="2024-03-19T14:57:13 BDT" name="loginTest" finished-at="2024-03-19T14:57:13 BDT" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginToApplication -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:UI.Group2forSuite@5ffead27]" started-at="2024-03-14T11:25:37 BDT" name="beforeClass" finished-at="2024-03-14T11:25:37 BDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="Dbconnect()[pri:0, instance:UI.Group2forSuite@5ffead27]" started-at="2024-03-14T11:25:37 BDT" name="Dbconnect" finished-at="2024-03-14T11:25:37 BDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Dbconnect -->
-        <test-method signature="loginCheck()[pri:1, instance:UI.Group2forSuite@5ffead27]" started-at="2024-03-14T11:25:37 BDT" name="loginCheck" finished-at="2024-03-14T11:25:37 BDT" duration-ms="5" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginCheck -->
-        <test-method is-config="true" signature="Dbdiscunnect()[pri:0, instance:UI.Group2forSuite@5ffead27]" started-at="2024-03-14T11:25:37 BDT" name="Dbdiscunnect" finished-at="2024-03-14T11:25:37 BDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Dbdiscunnect -->
-        <test-method signature="logoutCheck()[pri:2, instance:UI.Group2forSuite@5ffead27]" started-at="2024-03-14T11:25:37 BDT" name="logoutCheck" finished-at="2024-03-14T11:25:37 BDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logoutCheck -->
-        <test-method is-config="true" signature="Dbconnect()[pri:0, instance:UI.Group2forSuite@5ffead27]" started-at="2024-03-14T11:25:37 BDT" name="Dbconnect" finished-at="2024-03-14T11:25:37 BDT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Dbconnect -->
-        <test-method is-config="true" signature="Dbdiscunnect()[pri:0, instance:UI.Group2forSuite@5ffead27]" started-at="2024-03-14T11:25:37 BDT" name="Dbdiscunnect" finished-at="2024-03-14T11:25:37 BDT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Dbdiscunnect -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:UI.Group2forSuite@5ffead27]" started-at="2024-03-14T11:25:37 BDT" name="afterClass" finished-at="2024-03-14T11:25:37 BDT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="logoutToApplication()[pri:0, instance:UI.Group2forSuite@5ffead27]" started-at="2024-03-14T11:25:37 BDT" name="logoutToApplication" finished-at="2024-03-14T11:25:37 BDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logoutToApplication -->
-        <test-method is-config="true" signature="dataTeardown()[pri:0, instance:UI.Group2forSuite@5ffead27]" started-at="2024-03-14T11:25:37 BDT" name="dataTeardown" finished-at="2024-03-14T11:25:37 BDT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- dataTeardown -->
-      </class> <!-- UI.Group2forSuite -->
+        </test-method> <!-- loginTest -->
+      </class> <!-- Page.loginClass -->
     </test> <!-- Test before suite and after suite -->
-  </suite> <!-- BeforeAndAfterSuite -->
+  </suite> <!-- login Testing -->
 </testng-results>

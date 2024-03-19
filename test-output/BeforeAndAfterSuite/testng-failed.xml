@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [BeforeAndAfterSuite]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="chrome"/>
+  <test thread-count="5" name="Test before suite and after suite(failed)">
+    <classes>
+      <class name="Page.loginClass">
+        <methods>
+          <include name="loginTest"/>
+          <include name="lunchBrowser"/>
+        </methods>
+      </class> <!-- Page.loginClass -->
+    </classes>
+  </test> <!-- Test before suite and after suite(failed) -->
+</suite> <!-- Failed suite [BeforeAndAfterSuite] -->
